@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 options = webdriver.ChromeOptions()
 
-prefs = {"download.default_directory" : r"C:\Users\James\Github\TFBAttent\TFBAttent\script_results"}
+prefs = {"download.default_directory" : r"\script_results"}
 
 # create a new Edge browser instance
 driver = webdriver.Chrome()
@@ -14,7 +14,7 @@ driver = webdriver.Chrome()
 driver.get(r'https://rohslab.cmb.usc.edu/DNAshape/index.html')
 
 # open your file
-with open(r'C:\Users\James\Github\TFBAttent\TFBAttent\data\positives\CTCF_positive_regions_trimmed_fix.txt.fa', 'r') as file:
+with open(r'\data\positives\CTCF_positive_regions_trimmed_fix.txt.fa', 'r') as file:
     lines = file.readlines()
 
 # find the input element (replace 'inputElementName' with the name of your input element)
