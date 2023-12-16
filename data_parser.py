@@ -1,8 +1,8 @@
 from pathlib import Path
 import numpy as np
 from collections import deque
-neg_directory = Path("/home/jichenw/projects/rrg-hsn/jichenw/TF/results/results/struct/negatives/negatives/negatives_all")
-pos_directory = Path("/home/jichenw/projects/rrg-hsn/jichenw/TF/results/results/struct/positives/positives/positives_all")
+neg_directory = Path("/results/struct/negatives/negatives/negatives_all")
+pos_directory = Path("/results/struct/positives/positives/positives_all")
 directories = [neg_directory, pos_directory]
 files = []
 seq_dicts = []
