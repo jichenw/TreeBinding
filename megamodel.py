@@ -4,8 +4,8 @@ import random
 import numpy as np
 import mlflow
 
-pos_csv = r"/mnt/c/Users/James/Github/TFBAttent/TFBAttent/data/positives/out_fix.csv"
-neg_csv = r"/mnt/c/Users/James/Github/TFBAttent/TFBAttent/data/negatives/out_fix.csv"
+pos_csv = r"/data/positives/out_fix.csv"
+neg_csv = r"/data/negatives/out_fix.csv"
 #TODO: correct the number of records here
 #adjust so two skips to account for different size of neg and pos  52602
 default_seq_len = 200
